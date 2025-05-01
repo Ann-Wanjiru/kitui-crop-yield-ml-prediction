@@ -5,7 +5,6 @@ This document summarizes the key findings from the application of machine learni
 # Feature Importance  
 ![Feature Importance](./Images/Feature%20Analysis.png)
 
-![Feature Importance](./Images/Feature_Analysis.png)
 - Rainfall emerged as the most critical variable affecting crop yields.
 - Soil moisture also showed a significant positive correlation with output.
 - Fertilizer use had weaker but consistent contributions to yield variation.
