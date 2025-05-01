@@ -39,6 +39,17 @@ A weekly dataset containing historical crop yield information along with key env
 3. **Recurrent Neural Network (RNN)**  
    - Captures temporal dependencies in upsampled weekly data.
 
+## Key Findings & Conclusion 
+This study confirms the effectiveness of machine learning models—especially XGBoost and Random Forest—in predicting crop yields using historical environmental and agricultural data from Kitui County.
+
+- **XGBoost** achieved the highest performance (R² = 0.9765, MAE = 0.1411 tons/ha), followed closely by Random Forest.
+- **Rainfall** and **soil moisture** emerged as the most influential features in determining yield.
+- Drought-resilient crops like **sorghum** and **pigeon peas** proved more stable under erratic climate conditions.
+- **RNN models**, while producing smoother trends, underperformed in capturing sharp yield fluctuations.
+- Overall, machine learning outperformed traditional forecasting methods and offers a scalable solution for enhancing food security and planning in arid regions like Kitui.
+
+These results highlight the potential of AI-driven tools to support smarter, data-informed agriculture in Kenya and similar environments.
+
 ## Installation  
 To set up the project locally, follow these steps  
 ```bash
