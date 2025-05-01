@@ -42,7 +42,7 @@ This trend plot validates the realism of the upsampled data, confirming yield co
    - Captures temporal dependencies in upsampled weekly data.
 
 ## Key Findings & Conclusion 
-This study confirms the effectiveness of machine learning models—especially XGBoost and Random Forest—in predicting crop yields using historical environmental and agricultural data from Kitui County.
+This study confirms the effectiveness of machine learning models, especially XGBoost and Random Forest, in predicting crop yields using historical environmental and agricultural data from Kitui County.
 
 - XGBoost achieved the highest performance (R² = 0.9765, MAE = 0.1411 tons/ha), followed closely by Random Forest.
 - Rainfall and soil moisture emerged as the most influential features in determining yield.
