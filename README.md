@@ -29,6 +29,8 @@ A weekly dataset containing historical crop yield information along with key env
 ## Feature Engineering  
  (located in the Scripts/ folder)
 - Time-Series Upsampling: Converted annual crop-yield records into a weekly frequency by use of calibrated random noise derived from the original distribution, preserving key seasonal trends while enabling finer-grained modelling.
+This trend plot validates the realism of the upsampled data, confirming yield consistency over time.
+![Crop Yield Trend](./Images/Crop%20yield%20trend.png)
 
 ## Modeling Techniques  
 (located in the Scripts/ folder)
