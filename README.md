@@ -27,9 +27,11 @@ This repository provides synthetic data and Python code for predicting crop yiel
 A weekly dataset containing historical crop yield information along with key environmental variables such as rainfall (mm), soil moisture (%), temperature (°C), and fertilizer usage (kg/ha) for various crops in Kitui County from 2000 to 2024.
 
 ## Feature Engineering  
-- **Time-Series Upsampling:** Converted annual crop-yield records into a weekly frequency by use of calibrated random noise derived from the original distribution, preserving key seasonal trends while enabling finer-grained modelling.  
+ (located in the Scripts/ folder)
+- **Time-Series Upsampling:** Converted annual crop-yield records into a weekly frequency by use of calibrated random noise derived from the original distribution, preserving key seasonal trends while enabling finer-grained modelling.
 
 ## Modeling Techniques  
+(located in the Scripts/ folder)
 1. **XGBoost**  
    - Optimized gradient boosting for high accuracy and performance.  
 2. **Random Forest**  
