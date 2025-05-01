@@ -14,24 +14,40 @@ This document summarizes the key findings from the application of machine learni
 - Random Forest showed strong responsiveness to variable yield patterns.
 - RNN produced smoother trends but struggled to capture sharp fluctuations.
 
+### Feature Importance  
+- Rainfall emerged as the most critical variable affecting crop yields.
+- Soil moisture also showed a significant positive correlation with output.
+- Fertilizer use had weaker but consistent contributions to yield variation.
 
-## Key Insights
+→ *These findings reinforce the need for effective water management and soil conservation practices.*
 
-- Rainfall was identified as the most impactful variable in determining crop yield.
-- Soil moisture also significantly influenced yield levels.
-- Drought-resilient crops such as sorghum and pigeon peas outperformed others in consistency.
-- Hyperparameter tuning using Grid Search greatly improved model accuracy.
-- Machine learning models, especially tree-based ones, successfully captured complex nonlinear patterns in the data.
+### Crop Performance Trends  
+- Sorghum and pigeon peas exhibited higher resilience to climate variability than maize or beans.
+- Yields of these drought-tolerant crops were more stable across years, especially during dry spells.
+
+→ *This supports the adoption of drought-resilient crops in ASAL (arid and semi-arid land) regions like Kitui.*
+
+### Hyperparameter Tuning Benefits  
+- Using GridSearchCV, models were fine-tuned to improve learning rate, depth, and regularization parameters.
+- This led to significant error reductions in both XGBoost and Random Forest, bringing predicted yields closer to observed values.
+
+## Residual Analysis
+
+- XGBoost and Random Forest models tracked actual yields more closely and adapted to sharp yield changes.
+- RNN models produced smoother, less dynamic predictions, often staying near a fixed average (~5 tons/ha).
+
+
+## Recommendations
+
+1. Prioritize Rainfall Monitoring & Forecasting: Rainfall remains the dominant predictor — improved early warning systems could directly enhance planting decisions.
+2. Support Climate-Resilient Crops: Local governments should promote sorghum and pigeon peas, which consistently outperformed under variable conditions.
+3. Adopt ML-Based Planning Tools: Stakeholders should integrate models like XGBoost into county-level agricultural dashboards to support targeted interventions.
+
 
 ## Conclusion
 
-This project illustrates how integrating historical agro-environmental data with machine learning models like XGBoost and Random Forest can significantly enhance the accuracy, interpretability, and applicability of crop yield predictions.
+This study confirms that advanced machine learning models — particularly XGBoost — can significantly improve crop yield forecasting in drought-prone regions like Kitui County. By leveraging historical environmental data, these models deliver high predictive accuracy, enable better planning, and help mitigate risks posed by climate unpredictability.
 
-These insights can directly support:
-- Farmers with better planting and irrigation planning  
-- Policymakers in Kitui County with resource allocation  
-- Researchers aiming to expand AI use in agriculture  
-- Stakeholders promoting food security and sustainability  
 
 For implementation details, model code, and dataset information, see the main [README.md](./README.md).
 
