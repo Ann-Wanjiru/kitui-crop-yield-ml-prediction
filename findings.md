@@ -15,6 +15,7 @@ This document summarizes the key findings from the application of machine learni
 - RNN produced smoother trends but struggled to capture sharp fluctuations.
 
 ### Feature Importance  
+![Feature Importance](./images/feature_importance.png)
 - Rainfall emerged as the most critical variable affecting crop yields.
 - Soil moisture also showed a significant positive correlation with output.
 - Fertilizer use had weaker but consistent contributions to yield variation.
