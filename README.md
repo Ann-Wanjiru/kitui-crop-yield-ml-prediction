@@ -50,6 +50,8 @@ This study confirms the effectiveness of machine learning models—especially XG
 
 These results highlight the potential of AI-driven tools to support smarter, data-informed agriculture in Kenya and similar environments.
 
+For Findings & Conclusion details see the main [findings.md](./findings.md).
+
 ## Installation  
 To set up the project locally, follow these steps  
 ```bash
