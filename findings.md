@@ -3,7 +3,7 @@
 This document summarizes the key findings from the application of machine learning models to predict crop yields in Kitui County, Kenya, based on environmental and agricultural data from 2000–2024.
 
 # Feature Importance  
-![Feature Importance](./Images/Feature_Analysis.png)
+![Feature Importance](./Images/Feature%20Analysis.png)
 
 ![Feature Importance](./Images/Feature_Analysis.png)
 - Rainfall emerged as the most critical variable affecting crop yields.
