@@ -3,7 +3,7 @@
 This document summarizes the key findings from the application of machine learning models to predict crop yields in Kitui County, Kenya, based on environmental and agricultural data from 2000–2024.
 
 # Feature Importance  
-![Feature Importance](./images/feature_importance.png)
+![Feature Importance](./Images/feature_importance.png)
 - Rainfall emerged as the most critical variable affecting crop yields.
 - Soil moisture also showed a significant positive correlation with output.
 - Fertilizer use had weaker but consistent contributions to yield variation.
@@ -21,7 +21,7 @@ This document summarizes the key findings from the application of machine learni
 - Random Forest showed strong responsiveness to variable yield patterns.
 - RNN produced smoother trends but struggled to capture sharp fluctuations.
 - This plot shows how closely the model predictions match real crop yields. Points near the diagonal line indicate strong performance.
-![Actual vs Predicted](./images/Actual_vs_Predicted_All_Models.png)
+![Actual vs Predicted](./Images/Actual_vs_Predicted_All_Models.png)
 
 
 ### Crop Performance Trends  
@@ -30,7 +30,7 @@ This document summarizes the key findings from the application of machine learni
   
 → *This supports the adoption of drought-resilient crops in ASAL (arid and semi-arid land) regions like Kitui.*
 
-### Hyperparameter Tuning Benefits  
+# Hyperparameter Tuning Benefits  
 - Using GridSearchCV, models were fine-tuned to improve learning rate, depth, and regularization parameters.
 - This led to significant error reductions in both XGBoost and Random Forest, bringing predicted yields closer to observed values.
 
@@ -39,7 +39,7 @@ This document summarizes the key findings from the application of machine learni
 - XGBoost and Random Forest models tracked actual yields more closely and adapted to sharp yield changes.
 - RNN models produced smoother, less dynamic predictions, often staying near a fixed average (~5 tons/ha).
 - Residual plots reveal prediction errors. Tighter clustering near zero means better model accuracy.
-![Residuals](./images/Residuals_Distribution_All_Models.png)
+![Residuals](./Images/Residuals_Distribution_All_Models.png)
 
 
 # Recommendations
